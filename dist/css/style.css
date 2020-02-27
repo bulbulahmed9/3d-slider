@@ -1,0 +1,95 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1108px;
+	margin: auto;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.btn-2 {
+background: #1abc9c;
+color: #fff;
+display: inline-block;
+font-size: 15px;
+text-transform: uppercase;
+font-weight: 500;
+padding: 15px 25px;
+border: 1px solid #1abc9c;
+border-radius: 4px;
+margin-top: 20px;
+transition: all 0.3s ease-in;
+}
+.btn-2:hover {
+background: #fff;
+color: #1abc9c;
+}
+
+.swiper-container {
+position: relative;
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.swiper-container .swiper-slide {
+border-top: 4px solid #3492ff;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+position: relative;
+z-index: 1;
+background-position: center;
+background-size: cover;
+background: #fff;
+width: 300px;
+height: 550px;
+text-align: center;
+}
+.swiper-container .slide-2 {
+border-top: 4px solid #ffc134;
+}
+.swiper-container .slide-3 {
+border-top: 4px solid #ff5a8d;
+}
+.swiper-container .slide-4 {
+border-top: 4px solid #ff5a8d;
+}
+.swiper-slide h2 {
+position: relative;
+z-index: 1;
+padding-bottom: 15px;
+margin-bottom: 30px;
+border-bottom: 1px dashed #ddd;
+font-size: 22px;
+line-height: 24px;
+}
+
+.swiper-slide span {
+position: absolute;
+left: 50%;
+top: 50%;
+-webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+font-size: 18px;
+color: #fff;
+font-weight: 600;
+margin-bottom: 35px;
+}
+.swiper-slide h4 {
+font-size: 32px;
+color: #272727;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.swiper-slide ul li {
+display: block;
+font-size: 14px;
+color: #606060;
+letter-spacing: 0;
+margin: 12px 0;
+}
+
+
